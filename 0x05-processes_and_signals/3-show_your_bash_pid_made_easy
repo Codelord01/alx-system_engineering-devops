@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displays all process id with their names that contains a particular name
+
+pgrep -l bash
