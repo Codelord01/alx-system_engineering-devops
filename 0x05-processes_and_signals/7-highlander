@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#displays "To infinity and beyond" with sleep 2 and SIGTERM message "I am invincible"
+
+trap "echo I am invincible!!!" SIGTERM
+
+while true;do
+	echo "To infinity and beyond"
+	sleep 2
+done
