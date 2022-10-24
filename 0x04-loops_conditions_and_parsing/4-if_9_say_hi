@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#displays "Best School" for 10 times using while loop but says Hi after ninth iteration
+
+i=0
+
+while [ "$i" -lt 10 ];do
+	echo "Best School"
+	if [ "$i" = 8 ];then
+		echo "Hi"
+	fi
+	((i++))
+done
